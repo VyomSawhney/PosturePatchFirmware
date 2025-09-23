@@ -1,0 +1,46 @@
+-- IDF_TARGET is not set, guessed 'esp32c3' from sdkconfig '/Users/vyom/Desktop/PostureESP32/firmware/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.39.5 (Apple Git-154)")
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/vyom/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/vyom/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/vyom/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32c3
+-- Project sdkconfig file /Users/vyom/Desktop/PostureESP32/firmware/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/vyom/.espressif/python_env/idf5.2_py3.13_env/bin/python (found version "3.13.3") found components: Interpreter
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "posturepatch_phase1" version: 1
+-- Adding linker script /Users/vyom/Desktop/PostureESP32/firmware/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/vyom/esp/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
+-- Adding linker script /Users/vyom/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script /Users/vyom/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script /Users/vyom/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script /Users/vyom/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script /Users/vyom/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script /Users/vyom/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script /Users/vyom/esp/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table protobuf-c protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: /Users/vyom/esp/esp-idf/components/app_trace /Users/vyom/esp/esp-idf/components/app_update /Users/vyom/esp/esp-idf/components/bootloader /Users/vyom/esp/esp-idf/components/bootloader_support /Users/vyom/esp/esp-idf/components/bt /Users/vyom/esp/esp-idf/components/cmock /Users/vyom/esp/esp-idf/components/console /Users/vyom/esp/esp-idf/components/cxx /Users/vyom/esp/esp-idf/components/driver /Users/vyom/esp/esp-idf/components/efuse /Users/vyom/esp/esp-idf/components/esp-tls /Users/vyom/esp/esp-idf/components/esp_adc /Users/vyom/esp/esp-idf/components/esp_app_format /Users/vyom/esp/esp-idf/components/esp_bootloader_format /Users/vyom/esp/esp-idf/components/esp_coex /Users/vyom/esp/esp-idf/components/esp_common /Users/vyom/esp/esp-idf/components/esp_eth /Users/vyom/esp/esp-idf/components/esp_event /Users/vyom/esp/esp-idf/components/esp_gdbstub /Users/vyom/esp/esp-idf/components/esp_hid /Users/vyom/esp/esp-idf/components/esp_http_client /Users/vyom/esp/esp-idf/components/esp_http_server /Users/vyom/esp/esp-idf/components/esp_https_ota /Users/vyom/esp/esp-idf/components/esp_https_server /Users/vyom/esp/esp-idf/components/esp_hw_support /Users/vyom/esp/esp-idf/components/esp_lcd /Users/vyom/esp/esp-idf/components/esp_local_ctrl /Users/vyom/esp/esp-idf/components/esp_mm /Users/vyom/esp/esp-idf/components/esp_netif /Users/vyom/esp/esp-idf/components/esp_netif_stack /Users/vyom/esp/esp-idf/components/esp_partition /Users/vyom/esp/esp-idf/components/esp_phy /Users/vyom/esp/esp-idf/components/esp_pm /Users/vyom/esp/esp-idf/components/esp_psram /Users/vyom/esp/esp-idf/components/esp_ringbuf /Users/vyom/esp/esp-idf/components/esp_rom /Users/vyom/esp/esp-idf/components/esp_system /Users/vyom/esp/esp-idf/components/esp_timer /Users/vyom/esp/esp-idf/components/esp_wifi /Users/vyom/esp/esp-idf/components/espcoredump /Users/vyom/esp/esp-idf/components/esptool_py /Users/vyom/esp/esp-idf/components/fatfs /Users/vyom/esp/esp-idf/components/freertos /Users/vyom/esp/esp-idf/components/hal /Users/vyom/esp/esp-idf/components/heap /Users/vyom/esp/esp-idf/components/http_parser /Users/vyom/esp/esp-idf/components/idf_test /Users/vyom/esp/esp-idf/components/ieee802154 /Users/vyom/esp/esp-idf/components/json /Users/vyom/esp/esp-idf/components/log /Users/vyom/esp/esp-idf/components/lwip /Users/vyom/Desktop/PostureESP32/firmware/main /Users/vyom/esp/esp-idf/components/mbedtls /Users/vyom/esp/esp-idf/components/mqtt /Users/vyom/esp/esp-idf/components/newlib /Users/vyom/esp/esp-idf/components/nvs_flash /Users/vyom/esp/esp-idf/components/nvs_sec_provider /Users/vyom/esp/esp-idf/components/openthread /Users/vyom/esp/esp-idf/components/partition_table /Users/vyom/esp/esp-idf/components/protobuf-c /Users/vyom/esp/esp-idf/components/protocomm /Users/vyom/esp/esp-idf/components/pthread /Users/vyom/esp/esp-idf/components/riscv /Users/vyom/esp/esp-idf/components/sdmmc /Users/vyom/esp/esp-idf/components/soc /Users/vyom/esp/esp-idf/components/spi_flash /Users/vyom/esp/esp-idf/components/spiffs /Users/vyom/esp/esp-idf/components/tcp_transport /Users/vyom/esp/esp-idf/components/ulp /Users/vyom/esp/esp-idf/components/unity /Users/vyom/esp/esp-idf/components/usb /Users/vyom/esp/esp-idf/components/vfs /Users/vyom/esp/esp-idf/components/wear_levelling /Users/vyom/esp/esp-idf/components/wifi_provisioning /Users/vyom/esp/esp-idf/components/wpa_supplicant
+-- Configuring done (2.7s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/vyom/Desktop/PostureESP32/firmware/build
